@@ -1,0 +1,174 @@
+.header {
+	background-color: #FFFFFF;
+	color: #3b506b;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 20px;
+	color: 000000;
+}
+
+h3	{
+	font-size: 30px;
+	margin-top: 100px;
+	position: fixed;
+	color: 3b506b;
+	text-align: center;
+	font-weight: bold;
+}
+
+h4	{
+	font-size:40px;
+	color: 3b506b;
+	
+}
+
+h5	{
+
+	font-size: 20px;
+	color: 3b506b;
+}
+
+h6	{
+	font-size: 30px;
+	margin-top: 140px;
+	margin-left: 770px;
+	margin-right: 300px;
+	position: fixed;
+	color: 3b506b;
+	font-style: bold;
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+
+body {font-family: "Oswald"}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0471E5;
+}
+
+body {
+  background-image: url("paint.jpg");
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #0471E5;
+}
+
+.facebook {
+  background: #black;
+  color: white;
+}
+
+.twitter {
+  background: #black;
+  color: white;
+}
+
+.google {
+  background: #black;
+  color: white;
+}
+
+.youtube {
+  background: #black;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  
+}
+
+div.polaroid {
+	width: 33%;
+	background-color: #black;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-right: 10px;
+	margin-left: 630px;
+	margin-top: 20px;
+	float: left;
+}
+
+div.polaroid img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+}
+
+div.container {
+	text-align: center;
+}
+
+div.aboutpic {
+	width: 33%;
+	background-color: #black;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-right: 10px;
+	margin-left: 100px;
+	margin-top: 70px;
+	float: left;
+}
+
+
+
+div.aboutpic img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+	transform: rotate(180deg);
+}
